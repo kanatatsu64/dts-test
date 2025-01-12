@@ -1,6 +1,4 @@
-const main = () => {
-    console.log('It works!');
-};
+import { add } from "@/lib/utils";
 
-main();
-
+console.log(add(1, 2)); // 3
+console.log(add("Hello", "World")); // 3

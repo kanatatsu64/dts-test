@@ -4,8 +4,9 @@
 mkdir dts-test
 cd dts-test
 npm init
-npm install typescript ts-node jest @types/jest
+npm install typescript ts-node jest ts-jest @types/jest
 npx tsc --init
+npx ts-jest config:init
 ```
 
 ## 実行
@@ -14,5 +15,4 @@ npx tsc --init
 npm run start
 ```
 
-エントリーファイルはindex.ts。
-
+エントリーファイルは index.ts。
