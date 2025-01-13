@@ -16,3 +16,9 @@ npm run start
 ```
 
 エントリーファイルは index.ts。
+
+## テスト
+
+```shell
+npm run test
+```
